@@ -1,4 +1,4 @@
-archivo = open('prueba.txt', 'r', endcoding='uft8') #abrir archivo, despues de Open se pone la ruta del archivo
+archivo = open('prueba.txt', 'r', encoding='uft8') #abrir archivo, despues de Open se pone la ruta del archivo
 #print(archivo.read())
 
 #leer algunos caracteres
@@ -20,7 +20,7 @@ archivo = open('prueba.txt', 'r', endcoding='uft8') #abrir archivo, despues de O
 
 #Abrimos un nuevo archivo
 #a = anexar informacion
-archivo2 = open('copia.txt', 'a', endcoding='uft8') #Si no existe lo crea
+archivo2 = open('copia.txt', 'a', encoding='uft8') #Si no existe lo crea
 archivo2.write(archivo.read())
 
 archivo.close()
